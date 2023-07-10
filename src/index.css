@@ -5,8 +5,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: aliceblue;
     background-image: url('/src/image/universe1.jpg');
+    
 }
 
+h1{
+    font-size: 45px;
+}
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

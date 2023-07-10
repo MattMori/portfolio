@@ -7,15 +7,17 @@
 }
 
 
-.skill img{
+.skill img:not(:hover){
     height: 140px;
     margin: 30px;
     filter: drop-shadow(0px 4px 4px rgb(64, 2, 80));
+    transition-duration: 0.5s;
 }
 
 .skill img:hover{
     height: 200px;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
+    transform: none;
 }
 
 .skill h1{
