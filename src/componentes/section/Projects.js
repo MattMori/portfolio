@@ -33,7 +33,6 @@ function Projects(){
          repo="https://github.com/MattMori/CCXP"
          site="https://projetoccxpdnc1.netlify.app/"
          />
-        
          <ButtonB text='Acesse meu repositorio' link='https://github.com/MattMori'/>
          </div>
     )

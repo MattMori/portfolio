@@ -1,4 +1,10 @@
 .projects{
+    text-align: center;
+}
+
+.projects h1{
     text-align: justify;
     margin-left: 75px;
+
 }
+
