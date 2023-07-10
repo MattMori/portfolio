@@ -1,6 +1,9 @@
 .presentation{
     text-align: left;
     margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .presentation h1{
@@ -9,4 +12,11 @@
 
 .presentation h4{
     font-size: 25px;
+}
+
+.presentation img{
+    height: 500px;
+    border-radius: 30px;
+    margin-right: 18%;
+    
 }

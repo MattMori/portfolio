@@ -1,13 +1,10 @@
 import styles from './Presentation.module.css'
 import ButtonA from '../elements/ButtonA'
-import ButtonB from '../elements/ButtonB'
-
+import profile from '../../image/profile5.png'
 function Presentation() {
     return (
-        <div className={
-                styles.presentation
-            }
-            id="Presentation">
+        <div className={styles.presentation} id="Presentation">
+        <div>
             <h4>
                 <strong>Bem vindo ao meu portfolio!</strong>
             </h4>
@@ -18,7 +15,9 @@ function Presentation() {
                 Aqui você vai conhecer mais sobre meus conhecimentos<br/>
                 e projetos, fique a vontade para entrar em contato.
             </p>
-            <ButtonA link="https://github.com/MattMori" text='Conecte-se Comigo'/>
+            <ButtonA link="https://github.com/MattMori" text='Conecte-se Comigo!'/>
+        </div>
+            <img src={profile} />
         </div>
 
     )

@@ -1,0 +1,28 @@
+.skill{
+    background: rgba(26, 16, 61, 0.301);
+    border-radius: 10px;
+    margin: 75px;
+    padding: 25px;
+    filter: drop-shadow(0px 4px 4px rgb(64, 2, 80));
+}
+
+
+.skill img{
+    height: 140px;
+    margin: 30px;
+    filter: drop-shadow(0px 4px 4px rgb(64, 2, 80));
+}
+
+.skill img:hover{
+    height: 200px;
+    transition-duration: .5s;
+}
+
+.skill h1{
+    font: 45px;
+}
+
+.skill p{
+    font-size: 20px;
+}
+
