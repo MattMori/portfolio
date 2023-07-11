@@ -10,6 +10,7 @@ body {
 
 h1{
     font-size: 45px;
+    filter: drop-shadow(0px 4px 4px rgb(64, 2, 80));
 }
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;

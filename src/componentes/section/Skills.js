@@ -78,7 +78,7 @@ function Skills() {
                     <h2>{
                         info.title
                     }</h2>
-                    <p>{
+                    <p className={styles.description}>{
                         info.description
                     }</p>
                 </section>
