@@ -9,7 +9,6 @@ function Footer(){
                 <li><a href='https://www.linkedin.com/in/morimkv/'><FaLinkedin size={30}/></a></li>
                 <li><a href='https://twitter.com/MoriMkv'><FaTwitter size={30}/></a></li>
             </ul>
-            <p>mattmori16@gmail.com</p>
             <p>Mateus Mori © 2023</p>
         </div>
     )

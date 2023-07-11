@@ -14,10 +14,12 @@
 
 .footer p{
     margin: 25px;
+    filter: drop-shadow(0px 4px 4px rgb(64, 2, 80));
 }
 
 .footer li{
     margin-left: 15px;
+    filter: drop-shadow(0px 4px 4px rgb(118, 2, 150));
 }
 
 .footer a{

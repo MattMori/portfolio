@@ -3,7 +3,8 @@
     margin-left: 15%;
     display: flex;
     justify-content: space-between;
-
+    margin-top: 80px;
+    margin-bottom: 200px;
 }
 
 .presentation h1{
