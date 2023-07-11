@@ -17,7 +17,6 @@
 .skill img:hover{
     height: 200px;
     transition-duration: 0.5s;
-    transform: none;
 }
 
 .skill h1{
