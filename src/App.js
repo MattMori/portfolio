@@ -4,7 +4,7 @@ import Presentation from './componentes/section/Presentation';
 import Skills from './componentes/section/Skills';
 import Projects from './componentes/section/Projects';
 import Footer from './componentes/section/Footer';
-import RedirectPage from './RedirectPage';
+ 
 
 function App() {
   return (
@@ -14,7 +14,6 @@ function App() {
         <Skills/>
         <Projects/>
         <Footer/>
-        <RedirectPage />
     </div>
   );
 }
