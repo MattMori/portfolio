@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import{ useEffect } from 'react';
 
 function RedirectPage() {
   useEffect(() => {
@@ -17,12 +17,7 @@ function RedirectPage() {
     window.location.href = redirectUrl;
   }, []);
 
-  return (
-    <div>
-      <h1>Redirecionando...</h1>
-      {/* Você pode exibir uma mensagem ou indicador de redirecionamento aqui */}
-    </div>
-  );
+  return null;
 }
 
 export default RedirectPage;
