@@ -1,4 +1,4 @@
-import{ useEffect } from 'react';
+import { useEffect } from 'react';
 
 function RedirectPage() {
   useEffect(() => {
@@ -16,8 +16,6 @@ function RedirectPage() {
     // Redireciona para o URL definido
     window.location.href = redirectUrl;
   }, []);
-
-  return null;
 }
 
 export default RedirectPage;
