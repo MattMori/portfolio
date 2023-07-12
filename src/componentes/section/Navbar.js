@@ -10,10 +10,10 @@ function Navbar(){
                 <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
             </ul>
             <ul>
-                <li><a href='https://www.instagram.com/mori.mkv/'><FaInstagram size={30}/></a></li>
-                <li><a href='https://github.com/MattMori'><FaGithub size={30}/></a></li>
-                <li><a href='https://www.linkedin.com/in/morimkv/'><FaLinkedin size={30}/></a></li>
-                <li><a href='https://twitter.com/MoriMkv'><FaTwitter size={30}/></a></li>
+                <li><a target="_blank" href='https://www.instagram.com/mori.mkv/'><FaInstagram size={30}/></a></li>
+                <li><a target="_blank" href='https://github.com/MattMori'><FaGithub size={30}/></a></li>
+                <li><a target="_blank" href='https://www.linkedin.com/in/morimkv/'><FaLinkedin size={30}/></a></li>
+                <li><a target="_blank" href='https://twitter.com/MoriMkv'><FaTwitter size={30}/></a></li>
             </ul>
         </div>
     )

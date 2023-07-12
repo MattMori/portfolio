@@ -5,7 +5,7 @@ function Card({img,title, tech, description, repo, site}){
 
     return(
     <div className={styles.card}>
-            <a href={site}>
+            <a target="_blank" href={site} rel="noreferrer">
              <img src={img} alt='ERROR'/> 
             </a>
             
