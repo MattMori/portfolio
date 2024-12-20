@@ -33,3 +33,29 @@
 .description{
     filter: drop-shadow(0px 4px 4px rgb(64, 2, 80));
 }
+
+@media screen and (max-width: 768px){
+    .skill{
+        text-align: center;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .skill h1{
+        font-size: 20px;
+    }
+
+    .skill img:not(:hover){
+        height: 50px;
+        margin: 10px;
+        filter: drop-shadow(0px 4px 4px rgb(64, 2, 80));
+    }
+
+    .skill img:hover{
+        height: 60px;
+        transition-duration: 0.5s;
+    }
+}

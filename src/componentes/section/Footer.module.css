@@ -25,3 +25,19 @@
 .footer a{
     color: #ba4ff8 !important;
 }
+
+@media screen and (max-width: 768px){
+    .footer ul{
+        display: flex;
+        align-items: center;
+    }
+
+    .footer p{
+        margin: 30px;
+    }
+
+    .footer li{
+        margin-left: 0;
+    }
+    
+}

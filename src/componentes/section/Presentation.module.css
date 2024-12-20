@@ -21,3 +21,23 @@
     margin-right: 18%;
     
 }
+
+@media screen and (max-width: 768px){
+    .presentation{
+        text-align: center;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .presentation h1{
+        font-size: 20px;
+    }
+
+    .presentation img{
+        display: none;
+    }
+    
+}
