@@ -1,37 +1,37 @@
 import styles from './Projects.module.css'
 import ButtonB from '../elements/ButtonB'
 import Card from '../elements/Card'
-import pokedex from '../../image/projects/pokedex.png'
-import escoladnc from '../../image/projects/escoladnc.png'
-import ccxp from '../../image/projects/ccxp.png'
+import MovieList from '../../image/projects/MovieList.png'
+import BarSystem from '../../image/projects/BarSystem.png'
+import MoriSolucoes from '../../image/projects/MoriSolucoes.png'
 
 function Projects() {
     return (
         <div id="Projects" className={styles.projects}>
             <h1>Projetos</h1>
             <Card
-                img={pokedex}
-                title="Pokedex"
-                tech="JS,CSS,HTML"
-                description="Projeto de uma pokedex feita em React, utilizando hooks para consumir a API de pokemon para popular os cards, é definido as cores segundo as caracteristicas dos pokemons."
+                img={MovieList}
+                title="Movie List"
+                tech="React, JS, Sass, API de Filmes"
+                description="Projeto feito para consumir uma APi de Filmes e apresentar todos os seus dados em uma tela unica para cada filme, alem de possibilitar a pesquisa de filmes especificos, linguagem em portugues e uma grade com os filmes para ser feita a navegação."
                 repo="https://github.com/MattMori/PokedexReact"
                 site="https://pokedex-react-km7l8sw51-mattmori.vercel.app/"
             />
             <Card
-                img={escoladnc}
-                title="Landing page - Escola DNC"
-                tech="JS,CSS,HTML"
-                description="Desenvolvimento de uma landing page da Escola DNC, utilizando-se do figma como base para o lançamento da formação em tecnologia."
-                repo="https://github.com/MattMori/Landind-page-Arquitetura"
-                site="https://storied-klepon-0e060d.netlify.app/"
+                img={BarSystem}
+                title="BarSystem"
+                tech="React, JS, Sass, MongoDB"
+                description="BarSystem é um sistema de gerenciamento de comandas e bebidas para bares e restaurantes. Este projeto foi desenvolvido como parte de um desafio para demonstrar habilidades de desenvolvimento web.."
+                repo="https://github.com/MattMori/Sistema-de-Comanda---front"
+                site="https://sistema-comanda-frontend.vercel.app/CadastroClientes"
             />
             <Card
-                img={ccxp}
-                title="CCXP 2022"
-                tech="JS,CSS,HTML"
-                description="Um projeto do site da ccxp de 2022 onde possui um cronometro e estilizações CSS e aplicação de video na pagina"
-                repo="https://github.com/MattMori/CCXP"
-                site="https://projetoccxpdnc1.netlify.app/"
+                img={MoriSolucoes}
+                title="Pagina de Serviços"
+                tech="React, JS, Sass e Sheetmonkey"
+                description="Projeto foi feito utilizando React, Javascript vanilla e Sass, alem da utilização do react router dom para criação de rotas, utilizei tambem o Sheetmonkey para capturar e enviar os dados inseridos no formulario."
+                repo="https://github.com/MattMori/MoriManutencoes"
+                site="https://mori-manutencoes.vercel.app/"
             />
             <ButtonB text='Acesse meu repositorio' link='https://github.com/MattMori' />
         </div>
