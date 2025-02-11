@@ -10,14 +10,14 @@
 
 
 .skill img:not(:hover){
-    height: 140px;
+    height: 100px;
     margin: 30px;
     filter: drop-shadow(0px 4px 4px rgb(64, 2, 80));
     transition-duration: 0.5s;
 }
 
 .skill img:hover{
-    height: 200px;
+    height: 150px;
     transition-duration: 0.5s;
 }
 
@@ -49,13 +49,9 @@
     }
 
     .skill img:not(:hover){
-        height: 50px;
+        height: 40px;
         margin: 10px;
         filter: drop-shadow(0px 4px 4px rgb(64, 2, 80));
     }
 
-    .skill img:hover{
-        height: 60px;
-        transition-duration: 0.5s;
-    }
 }

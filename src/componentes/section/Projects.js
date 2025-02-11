@@ -11,11 +11,11 @@ function Projects() {
             <h1>Projetos</h1>
             <Card
                 img={MovieList}
-                title="Movie List"
+                title="Cine Verse"
                 tech="React, JS, Sass, API de Filmes"
                 description="Projeto feito para consumir uma APi de Filmes e apresentar todos os seus dados em uma tela unica para cada filme, alem de possibilitar a pesquisa de filmes especificos, linguagem em portugues e uma grade com os filmes para ser feita a navegação."
-                repo="https://github.com/MattMori/PokedexReact"
-                site="https://pokedex-react-km7l8sw51-mattmori.vercel.app/"
+                repo="https://github.com/MattMori/CineVerse"
+                site="https://cine-verse-dun.vercel.app/"
             />
             <Card
                 img={BarSystem}

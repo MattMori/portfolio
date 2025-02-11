@@ -3,7 +3,11 @@ import javascript from '../../image/skills/JS.svg';
 import html from '../../image/skills/html.png';
 import css from '../../image/skills/css.png';
 import react from '../../image/skills/react.png';
+import typeScript from '../../image/skills/typescript.svg';
 import github from '../../image/skills/github.png';
+import mongodb from '../../image/skills/mongodb.png';
+import git from '../../image/skills/git.png';
+import nextJs from '../../image/skills/Next.js.svg';
 import nodejs from '../../image/skills/nodejs.png';
 import {useState} from 'react';
 
@@ -48,6 +52,23 @@ function Skills() {
             title: 'GitHub',
             description: 'GitHub é uma plataforma de hospedagem de código-fonte e colaboração de desenvolvimento de software. Ele fornece controle de versão usando o Git e recursos de colaboração, como rastreamento de problemas, gerenciamento de projetos e revisão de código. O GitHub é amplamente utilizado por desenvolvedores para compartilhar, colaborar e contribuir para projetos de código aberto.'
         },
+        {
+            image: typeScript,
+            title: 'TypeScript',
+            description: 'TypeScript é um superconjunto de JavaScript que adiciona tipagem estática opcional ao código. Ele é projetado para facilitar o desenvolvimento de aplicativos JavaScript em grande escala, fornecendo recursos avançados, como interfaces, tipos genéricos, classes e muito mais. O TypeScript é compilado para JavaScript puro e é amplamente adotado em projetos modernos de front-end e back-end.'
+        },
+        {
+            image: mongodb,
+            title: 'MongoDB',
+            description: 'MongoDB é um banco de dados NoSQL de código aberto, orientado a documentos e altamente escalável. Ele armazena dados em documentos JSON flexíveis, permitindo que você modele dados de forma mais natural e eficiente. O MongoDB é amplamente utilizado em aplicativos modernos para lidar com grandes volumes de dados e suportar casos de uso complexos.'
+        },
+        {
+            image: nextJs,
+            title: 'Next.js',
+            description: 'Next.js é um framework React de código aberto usado para construir aplicativos web modernos e otimizados para desempenho. Ele fornece recursos avançados, como renderização do lado do servidor, geração de páginas estáticas, roteamento automático e muito mais. O Next.js é amplamente adotado por desenvolvedores para criar aplicativos web escaláveis e de alto desempenho.'
+        }
+
+
     ];
 
     return (
